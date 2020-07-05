@@ -12,8 +12,6 @@ This can be useful to, for example, remove spaces from your filenames by replaci
 
 * `path` can be either a file or a directory. If it is a directory, all the files and directories it contains will be renamed.
 
-
-
 ### Example
 
 ```

@@ -38,10 +38,3 @@ elif [[ -d $1 ]]; then
 else
     echo "ERROR: The entered path doesn't exist"
 fi
-
-
-# find . -depth -name '* *' | while IFS= read -r f
-# do
-# 	mv -i "$f" "$(dirname "$f")/$(basename "$f"|tr ' ' -)"
-# done
-

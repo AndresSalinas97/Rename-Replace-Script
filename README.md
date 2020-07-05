@@ -14,7 +14,7 @@ This can be useful to, for example, remove spaces from your filenames by replaci
 
 
 
-## Example
+### Example
 
 ```
 MacBook-Pro-ASL:test andres$ tree

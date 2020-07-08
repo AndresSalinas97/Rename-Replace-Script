@@ -6,7 +6,7 @@
 # Created by Andrés Salinas Lima on 2020/07/05.
 
 if [[ $# -ne 3 ]]; then
-	echo "Usage: $0 path \"original string\" \"replacement string\""
+	echo "Usage: $0 path-to-file-or-folder \"original string\" \"replacement string\""
 	exit
 fi
 

@@ -33,4 +33,4 @@ MacBook-Pro-ASL:test andres$
 
 ## Known Isuues
 
-* Bad things happen when the original string contains dots (.)
+* Bad things happen when the `original string` contains dots (`.`)

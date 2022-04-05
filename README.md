@@ -4,15 +4,11 @@ A little script to batch-rename files (and directories) by replacing a substring
 
 This can be useful to, for example, remove spaces from your filenames by replacing them with a dash or underscore.
 
-
-
 ## Usage
 
 `./rename-replace.sh path-to-file-or-folder "original string" "replacement string"`
 
 * `path` can be either a file or a directory. If it is a directory, all the files and directories it contains will be renamed.
-
-
 
 ### Example
 
@@ -34,3 +30,7 @@ MacBook-Pro-ASL:test andres$ tree
 1 directory, 2 files
 MacBook-Pro-ASL:test andres$ 
 ```
+
+## Known Isuues
+
+* Bad things happen when the original string contains dots (.)

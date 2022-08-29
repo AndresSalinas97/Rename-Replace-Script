@@ -1,4 +1,4 @@
-# Rename-replace Script
+# Rename-Replace Script
 
 A little Bash script to batch-rename files (and directories) by replacing a substring in their names.
 

@@ -8,7 +8,7 @@ This can be useful to, for example, remove spaces from your filenames by replaci
 
 `$ ./rename-replace.sh path "original substring" "replacement substring"`
 
-* `path` can be either a file or a directory. If it is a directory, all the files and directories it contains will be renamed recursively.
+* `path` can be either a file or a directory. If it is a directory, all the files and directories inside it will be renamed recursively.
 
 ## Installation
 

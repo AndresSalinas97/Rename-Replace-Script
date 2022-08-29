@@ -10,7 +10,7 @@ This can be useful to, for example, remove spaces from your filenames by replaci
 
 * `path` can be either a file or a directory. If it is a directory, all the files and directories it contains will be renamed recursively.
 
-## Installation
+## Installation
 
 1. (optional) Create your personal bin directory to store your executables at `~/bin` and make sure it's included in your PATH. Otherwise you can simply place them in `/usr/local/bin/`.
 2. Move `rename-replace.sh` to your personal bin directory (or create a link to it) and rename it to `rename-replace`.

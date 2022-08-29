@@ -23,7 +23,7 @@ if [[ -f $1 ]]; then
 
 # For entire directories:
 elif [[ -d $1 ]]; then
-    find . -depth -name "*$2*" | while IFS= read -r f; do
+    find "$1" -depth -name "*$2*" | while IFS= read -r f; do
         dir_name=$(dirname "$f")
         base_name=$(basename "$f")
 
